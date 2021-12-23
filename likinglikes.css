@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  margin-right: 40px;
+  margin-left: 40px;
+
+  padding: 0;
+}
+.container {
+  display: flexbox;
+}
+
+.nav-bar {
+  background-color: black;
+  color: white;
+  height: 60px;
+}
+.nav-bar h1 {
+  padding-top: 5px;
+}
+.header h1 {
+  display: flex;
+  justify-content: center;
+}
+.user-card1 {
+  border: 2px solid black;
+  width: 25%;
+  height: 200px;
+  background-color: yellowgreen;
+}
+.user-card1 img {
+  height: 100px;
+}
+.user-card2 {
+  border: 2px solid black;
+  width: 25%;
+  height: 200px;
+  background-color: turquoise;
+  float: right;
+  display: inline-block;
+}
+.user-card2 input {
+   background-color: royalblue;
+  color: white;
+  border: 5px solid black;
+  border-width: 3px;
+  padding: 5px 15px;
+  box-shadow: black 5px 5px;
+  /* margin-top: 1.5em; */
+  font-weight: bold;
+}
+
+
+.user-card3 {
+  border: 2px solid black;
+  width: 25%;
+  height: 200px;
+  background-color: blueviolet;
+  float: right;
+  display:inline-block;
+}
+
+.user-card3 input {
+   background-color: royalblue;
+  color: white;
+  border: 5px solid black;
+  border-width: 3px;
+  padding: 5px 15px;
+  box-shadow: black 5px 5px;
+  /* margin-top: 1.5em; */
+  font-weight: bold;
+}
+
+.user-card4 {
+  border: 2px solid black;
+  width: 25%;
+  height: 200px;
+  background-color: deeppink;
+  display: inline-block;
+}
+
+.user-card4 input {
+   background-color: royalblue;
+  color: white;
+  border: 5px solid black;
+  border-width: 3px;
+  padding: 5px 15px;
+  box-shadow: black 5px 5px;
+  /* margin-top: 1.5em; */
+  font-weight: bold;
+}
+}
